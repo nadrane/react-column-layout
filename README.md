@@ -15,5 +15,6 @@ Specifiable minimum and maximum image widths.
 
 # Demo
 
+# Usage
 
-
+Simply pass a list of nodes to the <Columns> component and either set a fixed number of columns or pass in a set of media queries for it to respond to. If you know the dimensions of your nodes upfront you can pass those in as a separate property and Columns will fill up the columns more intelligently by looping through the nodes and always adding it to the shortest column.
