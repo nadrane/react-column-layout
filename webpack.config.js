@@ -6,15 +6,14 @@ module.exports = {
     path: __dirname,
     filename: './demo/bundle.js'
   },
-  devtool: "source-map",
   module: {
     rules: [
       {
         test: /\.jsx?$/,
         loader: 'babel-loader',
-        exclude: /node_modules/,
+        "exclude": /node_modules/,
         options: {
-          presets: ['babel-preset-react', 'babel-preset-env']
+          presets: ['react', 'env']
         },
       },
     ]

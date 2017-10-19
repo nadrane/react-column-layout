@@ -1,7 +1,7 @@
 {
   "name": "react-column-layout",
   "version": "1.0.4",
-  "author": "Nick Drane",
+  "author": "Nick Drane <nick@nickdrane.com> github.com/nadrane",
   "license": "MIT",
   "main": "src/index.js",
   "repository": {
@@ -12,17 +12,7 @@
   "homepage": "https://nadrane.github.io/react-column-layout/",
   "dependencies": {
     "react": "^15.6.1",
-    "react-column-layout": "^1.0.3",
     "react-dom": "^15.6.1"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "webpack": "^3.5.6"
   },
   "keywords": [
     "react",
