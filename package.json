@@ -9,12 +9,10 @@
     "url": "https://github.com/nadrane/react-column-layout"
   },
   "description": "A react component to vertically layout images",
-  "scripts": {
-    "start": "webpack && open demo/index.html"
-  },
   "homepage": "https://nadrane.github.io/react-column-layout/",
   "dependencies": {
     "react": "^15.6.1",
+    "react-column-layout": "^1.0.3",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
@@ -34,6 +32,9 @@
     "query",
     "queries",
     "masonry",
-    "pinterest"
+    "pinterest",
+    "image",
+    "grid",
+    "gallery"
   ]
 }
