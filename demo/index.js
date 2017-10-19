@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-// import ColumnLayout from "react-column-layout";
 import ColumnLayout from "../src/index.jsx";
 import range from "../src/range";
 
