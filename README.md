@@ -9,12 +9,39 @@ This React component will allow you to render photos of potentially varying heig
 # Features
 
 A dynamic number of columns designed to fit the screen. Media queries and breakpoints not needed!
-Images automatically and intelligently resize as screen size adjusts.
-Customizable margins and gutters (space between images).
-Specifiable minimum and maximum image widths.
+- Images automatically and intelligently resize as screen size adjusts.
+- Customizable margins and gutters (space between images).
+- Specifiable minimum and maximum image widths.
 
 # Demo
 
-# Usage
+Try resizing the page
 
-Simply pass a list of nodes to the <Columns> component and either set a fixed number of columns or pass in a set of media queries for it to respond to. If you know the dimensions of your nodes upfront you can pass those in as a separate property and Columns will fill up the columns more intelligently by looping through the nodes and always adding it to the shortest column.
+[Demo](https://nadrane.github.io/react-column-layout/)
+
+# Usage
+```js
+const photos = [
+  {
+    thumbnailSrc: "http://lorempixel.com/400/1000",
+    thumbnailWidth: 400,
+    thumbnailHeight: 1000
+  },
+  {
+    thumbnailSrc: "http://lorempixel.com/400/200",
+    thumbnailWidth: 400,
+    thumbnailHeight: 200
+  },
+  {
+    thumbnailSrc: "http://lorempixel.com/400/200",
+    thumbnailWidth: 400,
+    thumbnailHeight: 200
+  }
+];
+
+class Demo extends Component {
+  render() {
+    return <ColumnLayout columnMinWidth={300} margin={15} gutter={2} photos={photos} />;
+  }
+}
+```
