@@ -17,7 +17,7 @@ A dynamic number of columns designed to fit the screen. Media queries and breakp
 
 # Usage
 ```js
-const images = [
+const photos = [
   {
     thumbnailSrc: "http://lorempixel.com/400/1000",
     thumbnailWidth: 400,
