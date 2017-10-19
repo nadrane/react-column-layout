@@ -1,6 +1,6 @@
 {
   "name": "react-column-layout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Nick Drane",
   "license": "MIT",
   "main": "src/index.js",
@@ -9,7 +9,6 @@
     "url": "https://github.com/nadrane/react-column-layout"
   },
   "description": "A react component to vertically layout images",
-  "main": "index.js",
   "scripts": {
     "start": "webpack && open demo/index.html"
   },
