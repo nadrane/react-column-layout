@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import ColumnLayout from "../lib";
+import ColumnLayout from "../src/lib";
 import range from "../src/range";
 
 const photoSizes = [300, 400, 500, 600, 700, 800, 900];

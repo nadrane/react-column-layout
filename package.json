@@ -13,8 +13,9 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
-  },"scripts": {
-    "prepublish": "npx babel --presets env,react -d lib/ src/"
+  },
+  "scripts": {
+    "prepublishOnly": "npx babel --presets env,react -d lib/ src/"
   },
   "keywords": [
     "react",
