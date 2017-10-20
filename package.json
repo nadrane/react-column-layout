@@ -1,6 +1,6 @@
 {
   "name": "react-column-layout",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Nick Drane <nick@nickdrane.com> github.com/nadrane",
   "license": "MIT",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },"scripts": {
-    "prepublish": "npx babel src/* --presets env,react -o lib/index.js"
+    "prepublish": "npx babel --presets env,react -d lib/ src/"
   },
   "keywords": [
     "react",
